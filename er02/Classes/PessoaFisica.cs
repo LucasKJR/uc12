@@ -32,7 +32,25 @@ namespace Back_End_ER02.Classes
 
         }
 
+       
+
         public bool ValidarDataNasc(DateTime dataNasc)
+        {
+            DateTime dataAtual = DateTime.Today;
+
+            double anos = (dataAtual - dataNasc).TotalDays / 365;
+
+            //Console.WriteLine(anos);
+
+            if (anos >= 18)
+            {
+                return true;
+            } 
+
+                return false;
+        }
+
+        public bool ValidarDataNasc(string dataNasc)
         {
             throw new NotImplementedException();
         }
