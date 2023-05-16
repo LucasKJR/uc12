@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Back_End_ER02.Classes
+namespace Back_End_ER05.Classes
 {
     public static class Utils
     {
@@ -20,14 +20,17 @@ namespace Back_End_ER02.Classes
             Console.ResetColor();
         }
 
+        public static void VerificarPastaArquivo(string caminho){
+           string pasta = caminho.Split("/")[0];
+           if (!Directory.Exists(pasta))
+           {
+                Directory.CreateDirectory(pasta);
+           }
 
-
-
-
-
-
-
-
-
+           if (!File.Exists(caminho))
+           {
+               using (File.Create(caminho)) {}
+           }
+        }
     }
 }

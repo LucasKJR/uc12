@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Back_End_ER02.Classes
+namespace Back_End_ER04.Classes
 {
     public class Endereco
     {
@@ -14,7 +14,5 @@ namespace Back_End_ER02.Classes
         public string? complemento { get; set; }
 
         public bool endComercial { get; set; }
-
-      
     }
 }

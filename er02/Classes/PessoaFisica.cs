@@ -1,6 +1,6 @@
 
-using Back_End_ER02.Interfaces;
-namespace Back_End_ER02.Classes
+using Back_End_ER04.Interfaces;
+namespace Back_End_ER04.Classes
 {
     public class PessoaFisica : Pessoa , IPessoaFisica
     {
@@ -32,9 +32,8 @@ namespace Back_End_ER02.Classes
 
         }
 
-       
-
         public bool ValidarDataNasc(DateTime dataNasc)
+        // Validar a maioridade da data de nascimento
         {
             DateTime dataAtual = DateTime.Today;
 
@@ -47,10 +46,11 @@ namespace Back_End_ER02.Classes
                 return true;
             } 
 
-                return false;
+            return false;
+
         }
 
-        public bool ValidarDataNasc(string dataNasc)
+                public bool ValidarDataNasc(string dataNasc)
         {
             if (DateTime.TryParse(dataNasc, out DateTime dataConvertida))
             {
