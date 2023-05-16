@@ -1,0 +1,30 @@
+C:\Users\Lucas\Desktop\uc12 er\er02\bin\Debug\net6.0\er02.exe
+C:\Users\Lucas\Desktop\uc12 er\er02\bin\Debug\net6.0\er02.deps.json
+C:\Users\Lucas\Desktop\uc12 er\er02\bin\Debug\net6.0\er02.runtimeconfig.json
+C:\Users\Lucas\Desktop\uc12 er\er02\bin\Debug\net6.0\er02.dll
+C:\Users\Lucas\Desktop\uc12 er\er02\bin\Debug\net6.0\er02.pdb
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.dll
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\refint\er02.dll
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.pdb
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\er02.genruntimeconfig.cache
+C:\Users\Lucas\Desktop\uc12 er\er02\obj\Debug\net6.0\ref\er02.dll
+C:\Users\Lucas\Desktop\uc12\er02\bin\Debug\net6.0\er02.exe
+C:\Users\Lucas\Desktop\uc12\er02\bin\Debug\net6.0\er02.deps.json
+C:\Users\Lucas\Desktop\uc12\er02\bin\Debug\net6.0\er02.runtimeconfig.json
+C:\Users\Lucas\Desktop\uc12\er02\bin\Debug\net6.0\er02.dll
+C:\Users\Lucas\Desktop\uc12\er02\bin\Debug\net6.0\er02.pdb
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.dll
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\refint\er02.dll
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.pdb
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\er02.genruntimeconfig.cache
+C:\Users\Lucas\Desktop\uc12\er02\obj\Debug\net6.0\ref\er02.dll
