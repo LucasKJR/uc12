@@ -1,26 +1,61 @@
 ﻿using Back_End_ER02.Classes;
 
-PessoaFisica novaPF = new PessoaFisica();
-Endereco novoEndPF = new Endereco();
 
-novaPF.nome = "Adriano Malagoli";
-novaPF.cpf = "2514521452";
-novaPF.rendimento = 6600.5f;
-novaPF.dataNasc = new DateTime(2001, 01, 01);
+// PessoaFisica novaPF = new PessoaFisica();
+// Endereco novoEndPF = new Endereco();
 
-novoEndPF.logradouro = "Rua Niteroi";
-novoEndPF.numero = 180;
-novoEndPF.complemento = "Senai Informatica";
-novoEndPF.endComercial = true;
+PessoaJuridica novaPJ = new PessoaJuridica();
+Endereco novaEndPJ = new Endereco();
 
-novaPF.endereco = novoEndPF.ToString();
+// DADOS DA PESSOA JURIDICA ************************************************************
+
+//Console.WriteLine(novaPJ.ValidarCnpj("76773415000160"));
+//Console.WriteLine(novaPJ.ValidarCnpj("76.773.415/0001-60"));
+
+novaPJ.nome = "Empresa Adriano Malagoli ME";
+novaPJ.cnpj = "76.773.415/0001-60";
+novaPJ.rendimento = 22600.5f;
+
+novaEndPJ.logradouro = "Rua Niteroi";
+novaEndPJ.numero = 180;
+novaEndPJ.complemento = "Adriano Informatica";
+novaEndPJ.endComercial = false;
+
+//novaPJ.endereco = novaEndPJ;
 
 //interpolação
 Console.WriteLine(@$"
-Nome: {novaPF.nome}
-Endereço: {novoEndPF.logradouro}, Num: {novoEndPF.numero}
-Maior de idade: {novaPF.ValidarDataNasc(novaPF.dataNasc)}
+Nome: {novaPJ.nome}
+Endereço: {novaEndPJ.logradouro}, Num: {novaEndPJ.numero}
+CNPJ: {novaPJ.cnpj} - Valido: {novaPJ.ValidarCnpj(novaPJ.cnpj)}
 ");
+
+
+
+
+// DADOS DA PESSOA FISICA ************************************************************
+// novaPF.nome = "Adriano Malagoli";
+// novaPF.cpf = "2514521452";
+// novaPF.rendimento = 6600.5f;
+// novaPF.dataNasc = new DateTime(2001, 01, 01);
+
+// novoEndPF.logradouro = "Rua Niteroi";
+// novoEndPF.numero = 180;
+// novoEndPF.complemento = "Senai Informatica";
+// novoEndPF.endComercial = true;
+
+// novaPF.endereco = novoEndPF;
+
+// //interpolação
+// Console.WriteLine(@$"
+// Nome: {novaPF.nome}
+// Endereço: {novoEndPF.logradouro}, Num: {novoEndPF.numero}
+// Maior de idade: {novaPF.ValidarDataNasc(novaPF.dataNasc)}
+// ");
+
+//********************************************************
+
+
 
 // Console.WriteLine(novaPF.nome);
 // Console.WriteLine(novaPF.cpf);
@@ -44,4 +79,8 @@ Maior de idade: {novaPF.ValidarDataNasc(novaPF.dataNasc)}
 
 // DateTime temp = new DateTime(2006, 01, 01);
 // Console.WriteLine(novaPF.ValidarDataNasc("2005/02/01"));
+
+
+
+
 
